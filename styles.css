@@ -1,0 +1,71 @@
+body {
+  background-image: url(Fondo.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+}
+
+.titulo h1 {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 120px;
+  color: gold;
+}
+
+.menu {
+  display: flex;
+  align-content: center;
+  justify-items: center;
+  height: 450px;
+}
+
+.menu ol {
+  font-family: Buxton Sketch;
+  font-size: 24px;
+  font-weight: bolder;
+  color: white;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.menu ol li {
+  background-color: #000080;
+  border: 2px solid white;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-align: center;
+  width: 200px;
+}
+
+.menu ol li a {
+  text-decoration: none;
+  color: white;
+  display: block;
+}
+
+.menu ol li a:hover {
+  font-size: 30px;
+}
+
+.titulo2 {
+  font-family: "Times New Roman", Times, serif;
+  color: white;
+  font-size: 50px;
+}
+
+.texto {
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-size: 20px;
+  text-align: left;
+  color: white;
+  width: 600px;
+}
